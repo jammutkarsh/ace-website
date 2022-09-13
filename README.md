@@ -1,4 +1,4 @@
-# React TailwindCSS Configured Template
+# ACE Website
 
-- Use it ,enjoy you life.
-- Build amazing and beautiful things with react and tailwindcss.
+This is the website repository for Ace.
+Made with React with a pinch of love.

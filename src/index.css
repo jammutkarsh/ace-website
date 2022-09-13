@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* base and global styles */
+
+html, body {
+  @apply bg-black text-white;
+}
+
+.page-content-wrapper {
+  max-width: 1200px;
+  @apply mx-auto;
+}
+
+.gradient-text {
+  background: #ee0979;  /* fallback for old browsers */
+  height: 1.5em;
+  background-image: linear-gradient(to right, hsl(329, 100%, 50%), hsl(206, 100%, 41%), hsl(154, 100%, 30%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsl(329, 100%, 50%), hsl(206, 100%, 41%));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsl(329, 100%, 50%), hsl(206, 100%, 41%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
