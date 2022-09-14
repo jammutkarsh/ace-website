@@ -9,11 +9,11 @@ export default function Navbar() {
       <div className="w-fit h-fit flex flex-row items-center justify-center p-2">
         <Link to="/">
           {navbarDataRef.current?.logo
-            ? <img src={navbarDataRef.current?.logo} 
-                alt="ace-logo"
-                className="navbar-logo"
-              />
-            : <span className="font-product text-lg">ace</span>
+            ? <img src={navbarDataRef.current?.logo}
+              alt="ace-logo"
+              className="navbar-logo"
+            />
+            : <span className="font-product text-lg dotFont">ACE</span>
           }
         </Link>
       </div>
@@ -21,7 +21,7 @@ export default function Navbar() {
         <ul className="navbar-options-list flex flex-row items-center justify-end gap-5 text-sm font-normal font-product">
           {navbarDataRef.current?.navbarOptions?.map((navbarOption, navbarOptionIndex) => (
             <li className="navbar-option-item text-white hover:text-zinc-400 underline hover:no-underline" key={navbarOptionIndex}>
-              {navbarOption?.path 
+              {navbarOption?.path
                 ? <Link to={navbarOption?.path}>{navbarOption?.label}</Link>
                 : <a href={navbarOption?.url} rel="noreferrer" target="_blank">{navbarOption?.label}</a>
               }
