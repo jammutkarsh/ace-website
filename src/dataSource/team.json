@@ -1,0 +1,24 @@
+[
+  {
+    "name": {
+      "firstName": "Utkarsh",
+      "lastName": "Chourasia"
+    },
+    "akaName": "DevOpsGuy",
+    "github": {
+      "profile": "https://github.com/JammUtkarsh",
+      "avatar": "https://avatars.githubusercontent.com/u/78140690?v=4"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Yash",
+      "lastName": "Sehgal"
+    },
+    "akaName": "DesignGod",
+    "github": {
+      "profile": "https://github.com/yashsehgal",
+      "avatar": "https://avatars.githubusercontent.com/u/62352288?v=4"
+    }
+  }
+]

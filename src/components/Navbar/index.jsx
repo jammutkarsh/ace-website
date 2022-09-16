@@ -13,7 +13,7 @@ export default function Navbar() {
               alt="ace-logo"
               className="navbar-logo"
             />
-            : <span className="font-product text-lg dotFont">ACE</span>
+            : <span className="font-product text-lg dot-font">ACE</span>
           }
         </Link>
       </div>
