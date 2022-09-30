@@ -4,7 +4,7 @@ function navbarData() {
     logo: "",
     navbarOptions: [
       { label: "Experiments", path: "/experiments" },
-      { label: "Connect with us", path: "/connect-with-us" },
+      { label: "Connect with us", path: "/contact" },
       { label: "GitHub", url: "https://github.com/acetechcomm" }
     ]
   });
